@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(./pic/b2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header{
+            background-color:darkcyan;
+            color: black;
+        }
+        ul,li{
+            display: flex;
+            justify-content:left;
+            padding:10px;
+            margin-left: 10px;
+            font-style:none;
+            padding-top: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            
+        }
+        header>h1{
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        ul>li>a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+        }
+        dl{
+            margin: 30px;
+            border: 3px solid;
+            padding: 10px;
+        }
+        dt,dd{
+            padding: 10px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        dd:hover{
+            color: white;
+            background-color:darkkhaki;
+        }
+        dt:hover{
+            color: black;
+            background-color: aqua;
+        }
+        #pro{
+           float:right;
+        }
+        table,th,td{
+            border: 2px solid black;
+            padding:2px;
+            margin:10px 50px;
+        }
+        td:hover
+        {
+            color: blueviolet;
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <header><h1>Home Page</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="skill.html">Skill</a></li>
+    </ul>
+    </header>
+
+    <dl>
+        <img id="pro" src="./pic/me.jpeg" width="200" height="200">
+        <dt>Name</dt>
+        <dd>Syed Mujtaba Ali Shah</dd>
+        <dt>F-Name</dt>
+        <dd>Syed Mustafa Kaml</dd>
+        <dt><img src="./pic/whatsapp.png" width="15px" height="15">Number</dt>
+        <dd>03149512901</dd>
+        <dt><img src="./pic/gmail.png" width="15px" height="15">Email</dt>
+        <dd>mailooficial12@gmail.com</dd>
+        <dt><img src="./pic/home.png" width="15px" height="15px">Address</dt>
+        <dd>Dhaki Nalbandi Qissa Khawni Bazar Peshawar</dd>
+        <table>
+            <tr>
+                <th>Education</th>
+                <th>Roll No</th>
+                <th>Year</th>
+                <th>Grade</th>
+                <th>Number</th>
+                <th>Institute</th>
+            </tr>
+            <tr>
+                <td>Matric</td>
+                <td>1122</td>
+                <td>2017</td>
+                <td>A</td>
+                <td>980</td>
+                <td>MEC</td>
+            </tr>
+            <tr>
+                <td>FSC</td>
+                <td>1122</td>
+                <td>2017</td>
+                <td>A</td>
+                <td>980</td>
+                <td>GSSC</td>
+            </tr>
+            <tr>
+                <td>BSCS</td>
+                <td>1122</td>
+                <td>2017</td>
+                <td>A</td>
+                <td>980</td>
+                <td>GSSC</td>
+            </tr>
+        </table>
+    </dl>
+</body>
+</html>
